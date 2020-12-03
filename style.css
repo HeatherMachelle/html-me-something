@@ -1,0 +1,82 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+    
+body {
+  width: 100%;
+  background-color: rgb(242, 185, 136);
+  background: linear-gradient(
+    0deg,
+    rgba(242, 185, 136, 1) 0%,
+    rgba(242, 220, 153, 1) 37%,
+    rgba(208, 230, 242, 1) 100%
+  );
+}
+main {
+    width:80%;
+    margin: 0 auto;
+}
+header {
+    background: white;  
+    margin: 0 auto;
+    padding: 2vw 0px 2vw 10vw;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+  font-family: 'Slabo 13px', serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Slabo 13px', serif;
+  font-size: 36px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 2vw;
+  line-height: 17pt;  
+}
+
+section {
+  padding: 2vh 0 10vh 0;
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+  align-items: baseline;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.item {
+  padding: 1vw;
+  width: 18vw;
+}
+
+.social {
+    width: 3vw;
+    height: auto;
+    padding: 2vh;
+}
+
+.footer {
+        width: 100%;
+        background-color: rgb(236, 172, 115);
+        text-align: left;
+        height: 10vw;
+        padding-left: 10vw;
+        
+}
+
+.copywright {
+    text-align: left;
+    width: auto;
+    padding-bottom: 10vw;
+}
