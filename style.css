@@ -57,7 +57,7 @@ section {
 
 .item {
   padding: 1vw;
-  width: 18vw;
+  width: 18.5vw;
 }
 
 .social {
@@ -68,11 +68,10 @@ section {
 
 .footer {
         width: 100%;
-        background-color: rgb(236, 172, 115);
+        /* background-color: rgb(236, 172, 115); */
         text-align: left;
         height: 10vw;
-        padding-left: 10vw;
-        
+        padding-left: 10vw; 
 }
 
 .copywright {
@@ -80,3 +79,8 @@ section {
     width: auto;
     padding-bottom: 10vw;  
 }
+/* 
+.quote {
+  width: 100%;
+  text-align: center;
+} */
